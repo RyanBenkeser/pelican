@@ -22,8 +22,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('About Me', 'http://linkedin.com/in/ryanbenkeser/'),
-         ('Articles', 'http://github.com/ryanbenkeser/'))
+LINKS = (('About Me', 'http://datadeductions.com/data-deductions.html#data-deductions'),
+         ('Posts', 'http://datadeductions.com/'))
 
 # Social widget
 SOCIAL = (('linkedin','http://linkedin.com/in/ryanbenkeser/'),
@@ -31,7 +31,8 @@ SOCIAL = (('linkedin','http://linkedin.com/in/ryanbenkeser/'),
 
 DEFAULT_PAGINATION = 5
 
-THEME = "/Users/rbenkeser/opt/anaconda3/lib/python3.7/site-packages/pelican/themes/Flex"
+# THEME = "/Users/rbenkeser/opt/anaconda3/lib/python3.7/site-packages/pelican/themes/Flex"
+THEME = "/Users/rbenkeser/Data_Deductions_Blog/pelican-themes/Flex"
 
 
 
