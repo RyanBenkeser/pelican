@@ -14,3 +14,7 @@ The goal of this blog is to share cool data trends across a wide array of subjec
 
 Stay tuned for weekly blog updates!
 
+
+Oh and this is me!
+![alt text](ryan_benkeser.jpg)
+

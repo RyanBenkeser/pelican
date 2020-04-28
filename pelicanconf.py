@@ -5,10 +5,12 @@ from __future__ import unicode_literals
 AUTHOR = 'Ryan Benkeser'
 SITENAME = 'Data Deductions'
 SITETITLE = 'Data Deductions'
-SITESUBTITLE = 'By Ryan Benkeser, Data Scientist'
+SITESUBTITLE = 'By Ryan Benkeser, Rising Data Scientist'
 SITEDESCRIPTION = 'Making deductions from data'
 
 PATH = 'content'
+STATIC_PATHS = ['images']
+SITELOGO = 'images/data_deductions.png'
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -34,7 +36,7 @@ DEFAULT_PAGINATION = 5
 # THEME = "/Users/rbenkeser/opt/anaconda3/lib/python3.7/site-packages/pelican/themes/Flex"
 THEME = "/Users/rbenkeser/Data_Deductions_Blog/pelican-themes/Flex"
 
-
+DISQUS_SITENAME = "datadeductions-com"
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
