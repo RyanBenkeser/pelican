@@ -3,14 +3,16 @@ Date: 2020-04-25 11:20
 Author: Ryan Benkeser
 Tags: coronavirus, visualizations
 ## The Spread of Coronavirus
-In this post we'll see how coronavirus is spreading around the world.  The first visualization is a racing bar chart by country.  The second visualization is an international geographical mapping using Python. Which visualization do you like better? Do you think the United States is doing enough, not enough or just the right amount to stop coronavirus? Add your comments in the section below.
+In this post we'll see how coronavirus is spreading around the world over time.  The first visualization is a racing bar chart by country.  The second visualization is an international geographical mapping.  Which visualization do you like better? Comment below!
+
+It has been widely reported that some countries do not have access to tests so they will not appear on the visualizations below.  In addition, a recent <a href="https://www.paloaltoonline.com/news/2020/04/17/stanford-study-more-than-48000-santa-clara-county-residents-have-likely-been-infected-by-coronavirus">prevalence study</a> suggests that case counts are vastly under-represented in many San Francisco communities.  Assuming this is true, we can assume that the case counts are significantly higher around the world as well (and that perhaps Coronavirus is less deadly than current knowledge).  Therefore, please take these facts into account as we reflect on CoV-2 spread in the visualizations below.   
 
 
 <html>
 <body>
 
-<h1>Racing Bar Chart (Fluorish Studio)</h1>
-I created the racing bar chart example below around April 13th.  The process itself to create the visualization was remarkably easy.  You do not even need to know how to code.  With some basic Microsoft Excel CSV upload in a standardized format, it was really easy to upload the data and for the visualization to render.  If you want to see the details of this Flourish studio visualization or build your own charts from these visualizations, please feel free to explore <a href="https://app.flourish.studio/visualisation/1907728/">the visualization</a> on your own.  
+<h1>Racing Bar Chart (Flourish Studio)</h1>
+Creating racing bar charts on Flourish Studio is remarkably easy.  After going through the exercise of creating one, I realize now why they have grown so popular on Youtube.  The main input is a simple CSV upload and the output, after moving a few columns around, is the attached visualization.  Please feel free to explore <a href="https://app.flourish.studio/visualisation/1907728/">the visualization</a> to get ideas for creating your own visualizations on Flourish Studio.   
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/lGYYWhRI2HU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -20,10 +22,7 @@ The next video is a geographical mapping of the spread.  I built it in Jupyter N
 
 
 <iframe src="https://ryanbenkeser.github.io/COVID-19/covid19.html" scrolling="no" frameborder="0"
-style="position: relative; top: 0; right: 0; left: 100; bottom: 0; height: 600px; width: 1200px;
-></iframe>
-
-
+style="position: relative; top: 0; right: 0; left: 100; bottom: 0; height: 600px; width: 1200px" allowfullscreen></iframe>
 
 </body>
 </html>

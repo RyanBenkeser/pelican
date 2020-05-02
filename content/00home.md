@@ -16,5 +16,7 @@ Stay tuned for weekly blog updates!
 
 
 Oh and this is me!
-![alt text](ryan_benkeser.jpg)
+
+
+![alt text](images/ryan_benkeser.jpg)
 
