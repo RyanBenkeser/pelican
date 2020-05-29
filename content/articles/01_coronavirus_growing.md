@@ -2,10 +2,10 @@ Title: Coronavirus spreads globally
 Date: 2020-04-25 11:20
 Author: Ryan Benkeser
 Tags: coronavirus, visualizations
-## The Spread of Coronavirus
+
 In this post we'll see how coronavirus is spreading around the world over time.  The first visualization is a racing bar chart by country.  The second visualization is an international geographical mapping.  Which visualization do you like better? Comment below!
 
-It has been widely reported that some countries do not have access to tests so they will not appear on the visualizations below.  In addition, a recent <a href="https://www.paloaltoonline.com/news/2020/04/17/stanford-study-more-than-48000-santa-clara-county-residents-have-likely-been-infected-by-coronavirus">prevalence study</a> suggests that case counts are vastly under-represented in many San Francisco communities.  Assuming this is true, we can assume that the case counts are significantly higher around the world as well (and that perhaps Coronavirus is less deadly than current knowledge).  Therefore, please take these facts into account as we reflect on CoV-2 spread in the visualizations below.   
+It has been widely reported that some countries do not have access to the requisite number of tests so they will not appear on the visualizations below.  In addition, a recent <a href="https://www.paloaltoonline.com/news/2020/04/17/stanford-study-more-than-48000-santa-clara-county-residents-have-likely-been-infected-by-coronavirus">prevalence study</a> suggests that case counts are vastly under-represented in the Bay Area.  Assuming we can trust these reports and studies, case counts are likely significantly more prevalent than the official numbers reported.  Therefore, please take these facts into account as we reflect on CoV-2 spread in the visualizations below.  
 
 
 <html>
@@ -29,9 +29,9 @@ style="position: relative; top: 0; right: 0; left: 100; bottom: 0; height: 600px
 
 ##
 
-Good luck and hopefully you can start rending your own data visualizations.  
 
-Signing off on Sunday, April 25th 2020.
+Stay safe out there! Next week I hope to do a further deep dive and try to understand the impact of the shelter in place orders across the United States of America.
+
 
 -- Ryan Benkeser
 

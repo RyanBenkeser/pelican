@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+
+
+
+
+
+<meta name="author" content="Ryan Benkeser" />
+<meta name="description" content="Population density is strongly correlated with coronavirus case counts per million. While it is impossible to discern pure causality from social data, we can measure correlations between data points to see if relationships exist and attempt to cohort the data to partially control for outside factors. From this partially controlled …" />
+<meta name="keywords" content="coronavirus, visualizations">
+
+<meta property="og:site_name" content="Data Deductions"/>
+<meta property="og:title" content="Coronavirus cases highly correlated with population densities"/>
+<meta property="og:description" content="Population density is strongly correlated with coronavirus case counts per million. While it is impossible to discern pure causality from social data, we can measure correlations between data points to see if relationships exist and attempt to cohort the data to partially control for outside factors. From this partially controlled …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/coronavirus-cases-highly-correlated-with-population-densities.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-05-03 11:20:00-07:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="/author/ryan-benkeser.html">
+<meta property="article:section" content="articles"/>
+<meta property="article:tag" content="coronavirus"/>
+<meta property="article:tag" content="visualizations"/>
+<meta property="og:image" content="images/data_deductions.png">
+
+  <title>Data Deductions &ndash; Coronavirus cases highly correlated with population densities</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="images/data_deductions.png" alt="Data Deductions" title="Data Deductions">
+      </a>
+      <h1><a href="">Data Deductions</a></h1>
+
+<p>By Ryan Benkeser, Rising Data Scientist</p>
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://datadeductions.com/data-deductions.html#data-deductions" target="_blank">About Me</a></li>
+          <li><a href="http://datadeductions.com/" target="_blank">Posts</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-linkedin" href="http://linkedin.com/in/ryanbenkeser/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-github" href="http://github.com/ryanbenkeser/" target="_blank"><i class="fa fa-github"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="coronavirus-cases-highly-correlated-with-population-densities">Coronavirus cases highly correlated with population densities</h1>
+    <p>
+          Posted on Sun 03 May 2020 in <a href="/category/articles.html">articles</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Population density is strongly correlated with coronavirus case counts per million.  While it is impossible to discern pure causality from social data, we can measure correlations between data points to see if relationships exist and attempt to cohort the data to partially control for outside factors.  From this partially controlled setting, we can make observations and see if these observations align to general scientific literature.  </p>
+<p>I analyze United States data for many reasons.  First, isolating the population density analysis to America controls for intra-country differences in testing capacities, test types and reporting standards.  Second, analyzing at a state level as opposed to a county level helps control for the fact that people may flow across county lines (either by car or other forms of transportation) during the coronavirus pandemic.  For example, a person might work in one county but live in another county.  This movement would likely conflate results.  Therefore, measuring at the state level appears to be an appropriate level of granularity to examine the relationship between coronavirus case counts per million and population densities.  </p>
+<p>Now to the findings.  Based on data from May 1st, 2020, the correlation between coronavirus cases per million and state population densities is 0.71.  This is a convincing correlation that human density is strongly associated with coronavirus proliferation.  See the correlations visualized below. </p>
+<p><img alt="alt text" src="images/02_picture1.png"></p>
+<p><img alt="alt text" src="images/02_picture2.png"></p>
+<p>Some states appear to be outliers.  These outliers include both states with coronavirus incidence rates higher than expected based on population density (Louisiana, South Dakota, New York) and lower than expected (California, Hawaii).  While many explanations can exist for the variances depicted in these states, we do generally observe a strong correlation between population densities and coronavirus incidence rates.  This outcome generally aligns to the general scientific literature that coronavirus spreads from direct human interaction (and NOT from 5G Networks!!! But maybe from Tik Tok videos?).</p>
+<p>If we assume population density is a significant and contributing factor to coronavirus growth, intra-state differences on the effective treatment of coronavirus should exist.  For example, the risks for coronavirus spreading in Alaska are different than the risks in New York City.  Furthermore, cities with dense populations may need to exercise even more caution than the rest of the country.</p>
+<p>While the exact level of caution to effectively combat coronavirus is still up for debate, population density is strongly correlated to coronavirus case counts per million and we should take that into account as we consider longterm strategies.  Keep your distance! Except don't keep your distance in the comment section below! What do you think? Should different areas of the country have different social distancing guidelines since population densities are strongly associated with coronavirus incidence rates? Why or why not? As you consider this, remember that correlation &lt;&gt; causation.  </p>
+<p>-- Ryan Benkeser</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/coronavirus.html">coronavirus</a>
+      <a href="/tag/visualizations.html">visualizations</a>
+    </p>
+  </div>
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'datadeductions-com';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+<!-- End Disqus -->
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Data Deductions ",
+  "url" : "",
+  "image": "images/data_deductions.png",
+  "description": "Making deductions from data"
+}
+</script>
+
+</body>
+</html>
